@@ -1,5 +1,5 @@
-import '@/app/globals.css';
-import { Providers } from '@/app/providers';
+import './globals.css';
+import { Providers } from './providers';
 
 export const metadata = {
     metadataBase: new URL(process.env.NEXTAUTH_URL || 'https://bushra-restaurant.vercel.app'),
